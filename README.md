@@ -9,6 +9,7 @@ This repository contains projects and code based on Michael Hartl's book [_Learn
 Each chapter has its own branch:
 
 1. 📖 [Chapter 1 - Getting Started](https://github.com/MaxHass12/web-dev-michael-hartl/tree/ch1-basic-html)
+1. 📖 [Chapter 1 - Filling In the Index Page](to-add)
 
 ✨ _(More chapters coming soon)_
 
