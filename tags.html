@@ -3,26 +3,19 @@
   <head>
     <title>Learn Enough to Be Dangerous</title>
     <meta charset="utf-8" />
+    <link rel="stylesheet" href="/css/main.css" />
   </head>
   <body>
-    <div style="text-align: right">
-      <a href="index.html" style="text-decoration: none">Home</a>
-      <a href="tags.html" style="margin-left: 10px; text-decoration: none"
-        >HTML Tags</a
-      >
-      <a href="moby_dick.html" style="margin-left: 10px; text-decoration: none"
-        >Moby Dick</a
-      >
+    <div class="nav-menu">
+      <a href="index.html">Home</a>
+      <a href="tags.html" class="nav-spacing">HTML Tags</a>
+      <a href="moby_dick.html" class="nav-spacing">Moby Dick</a>
     </div>
 
     <h1>Important HTML tags</h1>
 
-    <div style="height: 25%; width: 50%">
-      <img
-        src="images/astronaut.jpg"
-        alt="Astronaut"
-        style="width: 100%; height: auto"
-      />
+    <div id="astronaut-image-wrapper">
+      <img src="images/astronaut.jpg" alt="Astronaut" />
     </div>
 
     <p>
@@ -80,7 +73,7 @@
       <tr>
         <td><code>header</code></td>
         <td>header</td>
-        <td>for the header of the page</td>
+        <td>Label the page header</td>
       </tr>
       <tr>
         <td><code>div</code></td>
@@ -90,17 +83,27 @@
       <tr>
         <td><code>ol</code></td>
         <td>ordered list</td>
-        <td>creates an ordered list</td>
+        <td>List items in orderd list</td>
       </tr>
       <tr>
         <td><code>ul</code></td>
         <td>unordered list</td>
-        <td>created an unordered list</td>
+        <td>List items in unordered list</td>
       </tr>
       <tr>
         <td><code>li</code></td>
         <td>list item</td>
-        <td>creates a list item</td>
+        <td>Include list items</td>
+      </tr>
+      <tr>
+        <td><code>blockquote</code></td>
+        <td>blockquote</td>
+        <td>Show formatted quotation</td>
+      </tr>
+      <tr>
+        <td><code>br</code></td>
+        <td>Break</td>
+        <td>Creates a line break</td>
       </tr>
     </table>
 
@@ -146,8 +149,22 @@
         <td><code>span</code></td>
         <td>span</td>
         <td>General purpose inline element</td>
-        <td>&lt;span&gt;Hello World&lt;/span&gt;</td>
+        <td><code>&lt;span&gt;Hello World&lt;/span&gt;</code></td>
         <td><span>Hello World</span></td>
+      </tr>
+      <tr>
+        <td><code>code</code></td>
+        <td>code</td>
+        <td>Formats source code</td>
+        <td>
+          <code>&lt;code&gt;console.log('hello world');&lt;/code&gt;</code>
+        </td>
+        <td><code>console.log('hello world');</code></td>
+      </tr>
+      <tr>
+        <td><code>img</code></td>
+        <td>img</td>
+        <td>include an image</td>
       </tr>
     </table>
   </body>

@@ -1,9 +1,36 @@
 .nav-menu {
   text-align: right;
 }
+
 .nav-menu a {
   text-decoration: none;
 }
+
 .nav-spacing {
   margin-left: 10px;
+}
+
+.clickable-icon {
+  text-decoration: none;
+}
+
+.blockquote {
+  background-color: #eee;
+  padding: 2px 20px;
+}
+
+#astronaut-image-wrapper {
+  height: 25%;
+  width: 50%;
+  margin: 0 auto;
+}
+
+#astronaut-image-wrapper img {
+  width: 100%;
+  height: auto;
+}
+
+.header {
+  text-align: center;
+  margin: 0 0 80px;
 }
